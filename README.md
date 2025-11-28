@@ -14,7 +14,7 @@ The app communicates with a Python backend via **Firebase Realtime Database** to
 
 ---
 
-## 📌 Demo
+## 📌 Demo++
 
 A short screen recording of the application in use:
 

@@ -19,7 +19,7 @@ The app communicates with a Python backend via **Firebase Realtime Database** to
 > Choose one of the following demo options:
 > - **Download video:** `Demo/screen_recording.mp4`
 > - **Watch on YouTube:**  
->   [![Watch the demo]](https://youtube.com/shorts/-zt50OuBGuQ?feature=share)
+>   [[Watch the demo]](https://youtube.com/shorts/-zt50OuBGuQ?feature=share)
 
 ---
 ## 🛠 Installation & Usage

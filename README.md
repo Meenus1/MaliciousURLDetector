@@ -11,10 +11,6 @@ The app communicates with a Python backend via **Firebase Realtime Database** to
 - Real-time URL classification using Firebase
 - Secondary verification using Google Safe Browsing API
 - Android mobile application (built using Kodular)
-- Additional utilities (if included in your build):
-  - Password strength checker
-  - Malicious file scanner
-  - Password breach checker
 
 ---
 
@@ -42,8 +38,6 @@ MaliciousURLDetector/
 └── Demo/
 └── screen_recording.mp4
 
-yaml
-Copy code
 
 ---
 
@@ -72,29 +66,27 @@ Install the APK on Android
 
 Enter a URL → receive the safety result in real-time
 
-🧠 Model Details
-File	Purpose
-MaliciousUrlDetector.h5	Trained BiLSTM model to classify URLs
-tokenizer.pkl	Converts input URLs into integer sequences for model input
-label_encoder.pkl	Converts predicted class index → (safe / malicious) label
+---
+
+## 🧠 Model Details
+MaliciousUrlDetector.h5	- Trained BiLSTM model to classify URLs
+tokenizer.pkl	- Converts input URLs into integer sequences for model input
+label_encoder.pkl	- Converts predicted class index → (safe / malicious) label
 
 Training dataset and .ipynb training notebooks are not included due to size and copyright limitations.
 
-🔥 Firebase Configuration
+---
+
+## 🔥 Firebase Configuration
 The backend listens to the following Realtime Database values:
 
-Key	Function
-Server/Busy	Notifies server when a URL is submitted
-Server/Url	Encoded URL sent by mobile app
-Server/Username	Username who initiated the scan
-USERS/<username>/Result	Scan result returned by the backend
+Server/Busy	- Notifies server when a URL is submitted
+Server/Url	- Encoded URL sent by mobile app
+Server/Username	- Username who initiated the scan
+USERS/<username>/Result	- Scan result returned by the backend
 
-🤝 Contributing
+---
+
+## 🤝 Contributing
 This project is intended for educational and portfolio demonstration.
-You may fork the repository and experiment with:
-
-Improving the ML model
-
-Adding on-device ML inference
-
-Expanding threat intelligence APIs
+---

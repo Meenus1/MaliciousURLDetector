@@ -14,11 +14,12 @@ The app communicates with a Python backend via **Firebase Realtime Database** to
 
 ---
 
-## 📌 Demo++
+## 🎬 Demo
 
-A short screen recording of the application in use:
-
-➡️ `Demo/screen_recording.mp4`
+> Choose one of the following demo options:
+> - **Download video:** `Demo/screen_recording.mp4`
+> - **Watch on YouTube:**  
+>   [![Watch the demo](https://img.youtube.com/vi/-zt50OuBGuQ/0.jpg)](https://youtube.com/shorts/-zt50OuBGuQ?feature=share)
 
 ---
 ## 🛠 Installation & Usage

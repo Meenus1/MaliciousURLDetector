@@ -44,27 +44,20 @@ MaliciousURLDetector/
 ## 🛠 Installation & Usage
 
 1️⃣ Clone the repository
-```bash
-git clone https://github.com/Meenus1/MaliciousURLDetector.git
-cd MaliciousURLDetector
+  git clone https://github.com/Meenus1/MaliciousURLDetector.git
+  cd MaliciousURLDetector
+
 2️⃣ Install dependencies
+  pip install -r requirements.txt
 
-bash
-Copy code
-pip install -r requirements.txt
 3️⃣ Start the backend server (Google Colab recommended)
-
-Open server_code.ipynb in Google Colab
-
-Run all cells
-
-Keep the notebook running while using the app
+  Open server_code.ipynb in Google Colab
+  Run all cells
+  Keep the notebook running while using the app
 
 4️⃣ Use the mobile app
-
-Install the APK on Android
-
-Enter a URL → receive the safety result in real-time
+  Install the APK on Android
+  Enter a URL → receive the safety result in real-time
 
 ---
 
@@ -89,4 +82,5 @@ USERS/<username>/Result	- Scan result returned by the backend
 
 ## 🤝 Contributing
 This project is intended for educational and portfolio demonstration.
+
 ---

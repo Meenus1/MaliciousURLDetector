@@ -21,27 +21,6 @@ A short screen recording of the application in use:
 ➡️ `Demo/screen_recording.mp4`
 
 ---
-
-## 📂 Project Structure
-
-MaliciousURLDetector/
-│
-├── Model/
-│   ├── MaliciousUrlDetector.h5
-│   ├── tokenizer.pkl
-│   └── label_encoder.pkl
-│
-├── server_code.ipynb       # Python backend (Google Colab) for model + Firebase communication
-├── requirements.txt
-├── README.md
-│
-└── Demo/
-    └── screen_recording.mp4
-
-
-
----
-
 ## 🛠 Installation & Usage
 
 1️⃣ Clone the repository
